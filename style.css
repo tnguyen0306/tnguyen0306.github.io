@@ -1,0 +1,134 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    background-color: #ededed;
+    
+}
+
+.navbar-default{
+    background-color: white;
+} 
+
+.navbar-brand{
+    background-color: #4eaca7;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+      
+}   
+
+@media only screen and (max-width: 800px){
+    .navbar-header {
+        background-color: #4eaca7;
+    }
+}
+
+.add-summary{
+    background-color: white;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+
+#sum-pic{
+    float: left;
+    width: 200px;
+    height: 200px;
+    
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.summary{
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+#sum-h1{
+    color: #4eaca7;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 25px;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    #sum-h1{
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+.div_vis_img{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.vis_img{
+    width: 150px;
+    height: 150px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.vis_img:active{
+    border: 2px solid #4eaca7;
+}
+
+#vis-h2{
+    color: #4eaca7;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: ;
+    font-size: 28px;
+    padding-top: 15px;
+    padding-bottom: 5px;  
+    margin-left: 15px;
+}
+
+.chart_page{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #ededed;
+    margin-bottom: 60px;
+}
+
+.page-h1{
+    color: #4eaca7;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 10px;  
+}
+
+@media only screen and (max-width: 800px){
+    .page-h1 {
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+.hr-page{
+    color: #7c8a99;
+    border-width: 2px;
+    
+}

@@ -1,61 +1,77 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<style>
-    body {text-align: center;}
-    table {text-align: center;}
-</style>
-<head>
-  <meta charset="UTF-8">
-  <title>Basic HTML Bio</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Visualization Dashboard (Latitude)</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<body>
+  <body>
 
-  <h1>Tyler Nguyen</h1>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><b>Latitude</b></a>
+          </div>
 
-  <img src="image/pic.png" alt="Tyler Nguyen">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">Max Temperature</a></li>
+                        <li><a href="">Humidity</a></li>
+                        <li><a href="">Cloudiness</a></li>
+                        <li><a href="">Wind Speed</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">Comparison</a></li>
+                  <li><a href="">Data</a></li>
+              </ul>
+          </div>
 
-  <p>I was born and raised in Vietnam. I moved to The US in 2010. I graduated at University of Houston with a Bachelor's degree under Petroleum Engineering in May 2020. Since November 2018, I have been working at Ambyint Inc., a market leader in AI-powered optimization for the oil and gas industry.</p>
-  <p>Computers have been in my life ever since my reminiscing can recall. I feel thankful that I have exposed to this subject that early because computers are something which are not available to anyone in my hometown back in the day. My interest in it has grown every day that I would love to explore more. Therefore, I decided to attend the Data Vizualization Course at Rice University to expand my choices of work industries.</p>
+      </div>
+    </nav>
+          
+    <div class="container">
+      <div class="row">
+          <div class="col-md-8">
+              <section class="summary">
+                  <h1 id="sum-h1"><b>Summary: Latitude vs. X</b></h1>
+                  <hr class="hr-page"/>
+                  <img id="sum-pic" src="Resources/assets/images/fig1.png" alt="City_Latitude_vs_Max_Temperature"/>
+                  <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                  <br/>
+                  <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+              </section>
+          </div>
 
+          <div class="col-md-4">
+              <section class="add-summary">
+                  <h2 id="vis-h2"><b>Visualizations</b></h2>
+                  <hr class="hr-page"/>
+                  <div class="div_vis_img">
+                      <a href=""><img class="vis_img" src="Resources/assets/images/fig1.png" alt="City_Latitude_vs_Max_Temperature"/></a>
+                      <a href=""><img class="vis_img" src="Resources/assets/images/fig3.png" alt="City_Latitude_vs_Humidity"/></a>
+                      <a href=""><img class="vis_img" src="Resources/assets/images/fig3.png" alt="City_Latitude_vs_Cloudiness"></a>
+                      <a href=""><img class="vis_img" src="Resources/assets/images/fig4.png" alt="City_Latitude_vs_Wind_Speed"></a>
+                  </div>
+              </section>
+          </div>
+      </div>
+    </div>
 
-  <ul>
-    <li><strong>Email:</strong> <a href="#">tnguyen0306@gmail.com</a></li>
-    <li><strong>Github:</strong> <a href="#">github.com/tnguyen0306</a></li>
-    <li><strong>LinkedIn:</strong> <a href="#">linkedin.com/tnguyen0306</a></li>
-  </ul>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <table>
-    <tr>
-      <th>Music Genres</th>
-      <th>Movies</th>
-      <th>Games</th>
-    </tr>
-    <tr>
-      <td>KPop</td>
-      <td>The Avengers</td>
-      <td>Final Fantasy</td>
-    </tr>
-    <tr>
-      <td>Country</td>
-      <td>The Avengers: Age of Ultron</td>
-      <td>Pokémon</td>
-    </tr>
-    <tr>
-      <td>Jazz</td>
-      <td>The Avengers: Infinity War</td>
-      <td>Overwatch</td>
-    </tr>
-    <tr>
-        <td>EDM</td>
-        <td>The Avengers: Endgame</td>
-        <td>Crash Bandicoot</td>
-      </tr>
-  </table>
-<br/>
-  <!-- Bonus link to last class page -->
-  <a href="../../../../1/Activities/04-Stu_MyFirst_HTML/Solved/my-first-bonus.html">My First HTML Bonus</a>
-
-</body>
+  </body>
 
 </html>
