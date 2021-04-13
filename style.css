@@ -132,3 +132,38 @@ body{
     border-width: 2px;
     
 }
+
+.comp{
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right: 40px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.comp-h2{
+    color: #4eaca7;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.comp-h4{
+    color: #4eaca7;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#comp-p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.comp_img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
