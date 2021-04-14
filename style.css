@@ -48,6 +48,14 @@ body {
     margin-right: 20px;
     margin-left: 10px;
 }
+#sum-pic-detail {
+    float: left;
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
 .summary {
     font-size: 18px;
     padding-left: 10px;
