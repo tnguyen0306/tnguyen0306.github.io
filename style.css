@@ -1,167 +1,120 @@
-html{
+html {
     position: relative;
     min-height: 100%;
 }
-
-body{
-    background-color: #ededed;
+body {
+    background-color: rgb(231, 227, 227);
     
 }
-
-.navbar-default{
+.navbar-default {
     background-color: white;
 } 
-
-.navbar-brand{
-    background-color: #4eaca7;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
+.navbar-brand {
+    background-color: rgb(37, 175, 157);
       
 }   
-
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 768px) {
     .navbar-header {
-        background-color: #4eaca7;
+        background-color: rgb(37, 175, 157);
     }
 }
-
-.add-summary{
-    background-color: white;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    
-}
-
-#sum-pic{
-    float: left;
-    width: 200px;
-    height: 200px;
-    
-    margin-bottom: 10px;
-    margin-right: 20px;
-    margin-left: 10px;
-}
-
-.summary{
-    font-size: 18px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-    background-color: white;
-}
-
-#sum-h1{
-    color: #4eaca7;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 36px;
-    padding-top: 25px;
-    text-align: center;
-    padding-bottom: 25px;
-    
-}
-
-@media only screen and (max-width: 800px) {
-    #sum-h1{
-        font-size: 24px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-}
-
-
-.div_vis_img{
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.vis_img{
-    width: 150px;
-    height: 150px;
-    padding-right: 5px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 15px;
-}
-
-.vis_img:active{
-    border: 2px solid #4eaca7;
-}
-
-#vis-h2{
-    color: #4eaca7;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 28px;
-    padding-top: 15px;
-    padding-bottom: 5px;  
-    margin-left: 15px;
-}
-
-.chart_page{
+.chart_page {
     font-size: 18px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    background-color: #ededed;
+    background-color: rgb(245, 242, 239);
     margin-bottom: 60px;
 }
-
-.page-h1{
-    color: #4eaca7;
+.page-h1 {
+    color: rgb(37, 175, 157);
     font-size: 36px;
     margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 10px;
     padding-top: 10px;  
 }
-
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 768px) {
     .page-h1 {
         font-size: 24px;
         margin-top: 10px;
         margin-bottom: 5px;
     }
 }
-
-.hr-page{
-    color: #7c8a99;
+.add-summary {
+    background-color: white;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 50px;   
+}
+#sum-pic {
+    float: left;
+    width: 220px;
+    height: 200px;
+    
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.summary {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+#sum-h1 {
+    color: rgb(37, 175, 157);
+    font-size: 36px;
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 25px;   
+}
+@media only screen and (max-width: 768px) {
+    #sum-h1 {
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+.hr-page {
+    color: rgb(105, 103, 102);
     border-width: 2px;
     
 }
-
-.comp{
-    background-color: white;
-    margin-bottom: 50px;
+.comp {
+    margin-bottom: 60px;
     width: 80%;
 }
-
-.comp-h2{
-    color: #4eaca7;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-}
-
-.comp-h4{
-    color: #4eaca7;
-    font-family: 'Times New Roman', Times, serif;
+.comp-h4 {
+    color: rgb(37, 175, 157);
     text-align: center;
     margin-top: 10px;
     margin-bottom: 15px;
 }
-
-#comp-p{
+.comp-h2 {
+    color: rgb(37, 175, 157);
+    text-align: center;
+}
+#comp-p {
     font-size: 16px;
     text-align: center;
 }
-
-.comp_img{
+.comp_img {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+.comp_page {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(245, 242, 239);
+    margin-bottom: 15px;
+}
+.tab {
+    margin-bottom: 60px;
+}
 .data-city {
     background-color: white;
     padding-left: 40px;
@@ -170,19 +123,16 @@ body{
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 80%;
 }
 .data-h1 {
-    color: #4eaca7;
-    font-family: 'Times New Roman', Times, serif;
+    color: rgb(37, 175, 157);
     font-size: 36px;
     margin-top: 5px;
     margin-bottom: 25px;
-
+    text-align: center;
 }
 .data-p {
     font-size: 16px;
     margin-top: 10px;
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px; 
 }
