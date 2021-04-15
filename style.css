@@ -81,6 +81,7 @@ body {
 .comp {
     margin-bottom: 60px;
     width: 80%;
+    background-color: white; 
 }
 .comp-h4 {
     color: #4eaca7;
