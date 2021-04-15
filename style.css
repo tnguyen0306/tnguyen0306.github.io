@@ -115,26 +115,18 @@ body {
 .comp-h2 {
     color: #4eaca7;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;  
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;  
 }
 #comp-p {
     font-size: 16px;
     text-align: center;
+    background-color: white;
 }
 .comp_img {
     margin-top: 10px;
     margin-bottom: 10px;
-}
-.comp_page {
-    font-size: 18px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    background-color: #ededed;
-    margin-bottom: 15px;
-}
-.tab {
-    margin-bottom: 60px;
+    background-color: white;
 }
 .data-city {
     background-color: white;
